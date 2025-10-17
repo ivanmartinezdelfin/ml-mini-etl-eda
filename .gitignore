@@ -1,8 +1,18 @@
+# Python
+__pycache__/
 *.pyc
 .venv/
+.env
+
+# Jupiter
 .ipynb_checkpoints/
-data/processed/
-models/
-reports/figures/
+
+# Datos y modelos
+data/processed/*
+!data/processed/.gitkeep
+models/*.parquet
+reports/*.html
+
+# OS
 .DS_Store
-.vscode/
+Thumbs.db

@@ -1,0 +1,20 @@
+[project]
+name = "ml-mini-etl-eda"
+version = "0.1.0"
+description = "Mini-ETL, EDA y Feature Engineering (Nivel 0-1)"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    "scikit-learn>=1.4.0",
+    "matplotlib>=3.8.0",
+    "pyarrow>=16.0.0",
+    "ydata-profiling>=4.6.0", # opcional para reports/eda.html
+    "jupyter>=1.0.0",
+    "papermill>=2.5.0" # para ejecutar notebooks vía Makefile
+]
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
+[tool.black]
+line-length = 100

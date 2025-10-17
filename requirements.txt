@@ -1,6 +1,9 @@
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-joblib
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+pyarrow>=16.0.0
+ydata-profiling>=4.6.0
+jupyter>=1.0.0
+papermill>=2.5.0
+pytest>=8.0.0
